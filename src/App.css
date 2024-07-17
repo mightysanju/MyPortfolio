@@ -586,3 +586,22 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     transform: rotate(360deg);
   }
 }
+
+/*chat*/
+/* ChatBotStyles.css */
+
+/* Ensure the avatar maintains its size and shape */
+.react-chatbot-kit-chat-bot-avatar-icon {
+  width: 50px; /* Fixed width */
+  height: 50px; /* Fixed height */
+  object-fit: cover; /* Maintain aspect ratio */
+  border-radius: 50%; /* Make the avatar circular */
+}
+
+/* Ensure the avatar does not stretch on mobile devices */
+@media (max-width: 600px) {
+  .react-chatbot-kit-chat-bot-avatar-icon {
+    width: 40px; /* Adjust size for mobile */
+    height: 40px; /* Adjust size for mobile */
+  }
+}

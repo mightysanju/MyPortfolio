@@ -91,14 +91,17 @@ export const Chat = () => {
         botFontColor: 'white',
         userBubbleColor: 'rgba(170, 54, 124, 2)',
         userFontColor: 'white',
+        borderRadius: '50px',
         
         
     };
+    
 
     // Set some properties of the bot
     const config = {
         botAvatar: avator,
         floating: true,
+       
         
     };
 
