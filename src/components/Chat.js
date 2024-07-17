@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import ChatBot from 'react-simple-chatbot';
 import { ThemeProvider } from 'styled-components';
-import avator from '../assets/img/avator.png';
+import avator from '../assets/img/avator.ico';
 import axios from 'axios';
 import { Transparency } from 'react-bootstrap-icons';
 
