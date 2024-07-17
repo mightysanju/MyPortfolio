@@ -8,20 +8,35 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "animate.css": "^4.1.1",
+<<<<<<< HEAD
     "axios": "^1.7.2",
     "axois": "^0.0.1-security",
     "bootstrap": "^5.3.3",
     "react": "^18.3.1",
     "react-bootstrap": "^2.10.4",
+=======
+    "bootstrap": "^5.3.3",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "nodemailer": "^6.9.13",
+    "react": "^18.3.1",
+    "react-bootstrap": "^2.10.2",
+>>>>>>> origin/main
     "react-bootstrap-icons": "^1.11.4",
     "react-dom": "^18.3.1",
     "react-multi-carousel": "^2.8.5",
     "react-on-screen": "^2.1.1",
+<<<<<<< HEAD
     "react-router-dom": "^6.24.1",
     "react-router-hash-link": "^2.4.3",
     "react-scripts": "5.0.1",
     "react-simple-chatbot": "^0.6.1",
     "styled-components": "^4.4.1",
+=======
+    "react-router-dom": "^6.23.1",
+    "react-router-hash-link": "^2.4.3",
+    "react-scripts": "5.0.1",
+>>>>>>> origin/main
     "web-vitals": "^2.1.4"
   },
   "scripts": {
