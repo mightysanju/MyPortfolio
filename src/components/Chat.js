@@ -41,7 +41,6 @@ const FetchAnswer = ({ steps, previousStep, triggerNextStep, ...props }) => {
 };
 
 
-// ... ................................
 
 
 export const Chat = () => {
