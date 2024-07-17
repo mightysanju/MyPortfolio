@@ -7,6 +7,7 @@ import { Transparency } from 'react-bootstrap-icons';
 import styled from 'styled-components';
 
 
+
 // Create a functional component to fetch the answer from the Flask API
 const FetchAnswer = ({ steps, previousStep, triggerNextStep, ...props }) => {
     const query = previousStep.value;
@@ -110,12 +111,12 @@ export const Chat = () => {
             steps={step}
             {...config}
             style={{ 
-              width: '100%',
-              maxWidth: '400px',
-              height: 'calc(100vh - 80px)', 
+              //width: '100%',
+              //maxWidth: '350px',
               overflow: 'hidden',
-              borderRadius: '30px',
-              zIndex: 1000, 
+              borderRadius: '25px',
+              zIndex: '1', 
+              
               
             }}
         />
