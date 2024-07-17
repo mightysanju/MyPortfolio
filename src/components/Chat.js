@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import ChatBot from 'react-simple-chatbot';
 import { ThemeProvider } from 'styled-components';
-import avator from '../assets/img/avator.ico';
+import avator from '../assets/img/avator.svg';
 import axios from 'axios';
 import { Transparency } from 'react-bootstrap-icons';
 
@@ -53,8 +53,8 @@ export const Chat = () => {
     const step = [
         {
             id: '0',
-            message: 'Hey there! What is your name?',
-            trigger: '1'
+            message: 'Hello, it’s a pleasure to connect with you. How can I assist you today? Feel free to ask anything about me.',
+            trigger: '3'
         },
         {
             id: '1',
@@ -83,17 +83,14 @@ export const Chat = () => {
     
     // Creating our own theme
     const theme = {
-        background: 'rgba(0,0,0, 0.9)',
-        headerBgColor: 'linear-gradient(45.21deg, rgba(170, 54, 124, 0.8) -5.91%, rgba(74, 47, 189, 0.8) 111.58%)',
+        background: 'rgba(0,0,0, 0.8)',
+        headerBgColor:'linear-gradient(45.21deg, rgba(170, 54, 124, 0.8) -5.91%, rgba(74, 47, 189, 0.8) 111.58%)',
         headerFontSize: '25px',
-        botBubbleColor: 'rgba(74, 47, 189,2)',
+        botBubbleColor:'rgba(74, 47, 189,2)',
         headerFontColor: 'white',
         botFontColor: 'white',
         userBubbleColor: 'rgba(170, 54, 124, 2)',
         userFontColor: 'white',
-        borderRadius: '50px',
-        
-        
     };
     
 
@@ -101,14 +98,13 @@ export const Chat = () => {
     const config = {
         botAvatar: avator,
         floating: true,
-       
-        
     };
 
     return (
         <ThemeProvider theme={theme} >
             <ChatBot
-                headerTitle="Ask Sanju 🎓"
+                headerTitle="Ask Sanju  💬 "
+                placeholder= 'Type to ask sanju . . .'
                 steps={step}
                 {...config}
             />
