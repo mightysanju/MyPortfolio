@@ -15,8 +15,6 @@ function App() {
      <NavBar />
      <Banner />
      <Chat />
-     <NavBar />
-     <Banner />
      <Skills />
      <Projects />
      <Contact />
