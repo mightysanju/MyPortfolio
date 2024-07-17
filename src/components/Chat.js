@@ -3,8 +3,6 @@ import ChatBot from 'react-simple-chatbot';
 import { ThemeProvider } from 'styled-components';
 import avator from '../assets/img/avator.svg';
 import axios from 'axios';
-import { Transparency } from 'react-bootstrap-icons';
-import styled from 'styled-components';
 
 
 

@@ -3,6 +3,8 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
+
+import projImg4 from "../assets/img/project-img4.png";
 import cert1 from "../assets/img/cert1.jpeg";
 import cert2 from "../assets/img/cert2.jpeg";
 import cert3 from "../assets/img/cert3.jpeg";
@@ -32,17 +34,17 @@ export const Projects = () => {
       imgUrl: projImg3,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
+      title: "RAG Chat Bot ",
+      description: "Retreival Augmented Generation based BOT Deployed on Heroku",
+      imgUrl: projImg4,
     },
     {
-      title: "Business Startup",
+      title: "Upcoming . . .",
       description: "Design & Development",
       imgUrl: projImg2,
     },
     {
-      title: "Business Startup",
+      title: "Upcoming . . .",
       description: "Design & Development",
       imgUrl: projImg3,
     },
