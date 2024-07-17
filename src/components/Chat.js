@@ -4,6 +4,30 @@ import { ThemeProvider } from 'styled-components';
 import avator from '../assets/img/avator.svg';
 import axios from 'axios';
 import { Transparency } from 'react-bootstrap-icons';
+import styled from 'styled-components';
+import { isMobile } from 'react-device-detect';
+
+const ChatContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 10px;
+
+  @media (max-width: 768px) {
+    height: calc(100vh - 50px); /* Adjust for mobile keyboard */
+    padding: 5px;
+  }
+`;
+
+const ChatWrapper = styled.div`
+  width: 100%;
+  max-width: 400px;
+
+  @media (max-width: 768px) {
+    max-width: 100%;
+  }
+`;
 
 // Create a functional component to fetch the answer from the Flask API
 const FetchAnswer = ({ steps, previousStep, triggerNextStep, ...props }) => {
@@ -101,13 +125,17 @@ export const Chat = () => {
     };
 
     return (
-        <ThemeProvider theme={theme} >
-            <ChatBot
-                headerTitle="Ask Sanju  💬 "
-                placeholder= 'Type to ask sanju . . .'
-                steps={step}
-                {...config}
-            />
-        </ThemeProvider>
+      <ChatContainer>
+        <ChatWrapper>
+          <ThemeProvider theme={theme} >
+              <ChatBot
+                  headerTitle="Ask Sanju  💬 "
+                  placeholder= 'Type to ask sanju . . .'
+                  steps={step}
+                  {...config}
+              />
+          </ThemeProvider>
+        </ChatWrapper>
+      </ChatContainer>
     );
 };
