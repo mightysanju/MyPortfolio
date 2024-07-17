@@ -4,8 +4,6 @@ import { ThemeProvider } from 'styled-components';
 import avator from '../assets/img/avator.svg';
 import axios from 'axios';
 
-
-
 // Create a functional component to fetch the answer from the Flask API
 const FetchAnswer = ({ steps, previousStep, triggerNextStep, ...props }) => {
     const query = previousStep.value;
@@ -43,13 +41,10 @@ const FetchAnswer = ({ steps, previousStep, triggerNextStep, ...props }) => {
 };
 
 
-// ... rest of your code
+// ... ................................
 
 
 export const Chat = () => {
-
-
-
 
     const step = [
         {
@@ -113,9 +108,7 @@ export const Chat = () => {
               //maxWidth: '350px',
               overflow: 'hidden',
               borderRadius: '25px',
-              zIndex: '1', 
-              
-              
+              zIndex: '1',
             }}
         />
     </ThemeProvider>
