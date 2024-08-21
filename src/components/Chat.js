@@ -7,7 +7,7 @@ import axios from 'axios';
 // Create a functional component to fetch the answer from the Flask API
 const FetchAnswer = ({ steps, previousStep, triggerNextStep, ...props }) => {
     const query = previousStep.value;
-    const [responseMessage, setResponseMessage] = useState('Processing...');
+    const [responseMessage, setResponseMessage] = useState('Thinking...');
     const timerId = useRef(null);
 
     useEffect(() => {
