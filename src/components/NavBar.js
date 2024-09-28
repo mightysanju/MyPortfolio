@@ -34,6 +34,8 @@ export const NavBar = () => {
     setActiveLink(value);
   }
 
+  
+
   return (
     <Router>
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
@@ -56,7 +58,8 @@ export const NavBar = () => {
                 <a href="https://www.facebook.com/mightysanju/"><img src={navIcon2} alt="" /></a>
                 <a href="https://www.instagram.com/mightysanju3/"><img src={navIcon3} alt="" /></a>
               </div>
-              <HashLink to='#connect'>
+              <HashLink to="mailto:sanju.k3r+portfolio@gmail.com?subject=Let’s%20Connect&body=Hi%20there,%20let’s%20connect!">
+              
                 <button className="vvd"><span>Let’s Connect</span></button>
               </HashLink>
             </span>

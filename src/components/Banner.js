@@ -58,7 +58,7 @@ export const Banner = () => {
                 <span className="tagline">Welcome to my Portfolio</span>
                 <h1>{`Hi! I'm Sanju`} </h1><h1><span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Data Scientist", "Data Analyst", "AI/ML Engineer", "Data Engineer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>Data whiz with 4+ years crafting impactful solutions. Bridge theory & practice (e.g., 78% efficiency at Amazon). Skilled in Python, SQL, ML (Machine Learning), & more. Turn data into insights & leverage electronics/IoT for real-world applications. Problem-solver with a "make it happen" spirit.</p>
-                  <button onClick={() => window.location.href = '#connect'}>Let’s Connect<ArrowRightCircle size={25} /></button>
+                  <button onClick={() => window.location.href = "mailto:sanju.k3r+portfolio@gmail.com?subject=Let’s%20Connect&body=Hi%20there,%20let’s%20connect!"}>Let’s Connect<ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
           </Col>

@@ -4,6 +4,8 @@ import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
 import projImg4 from "../assets/img/project-img4.png";
+
+import coming from "../assets/img/coming.png";
 import cert1 from "../assets/img/cert1.jpeg";
 import cert2 from "../assets/img/cert2.jpeg";
 import cert3 from "../assets/img/cert3.jpeg";
@@ -40,12 +42,12 @@ export const Projects = () => {
     {
       title: "Upcoming . . .",
       description: "Design & Development",
-      imgUrl: projImg2,
+      imgUrl: coming,
     },
     {
       title: "Upcoming . . .",
       description: "Design & Development",
-      imgUrl: projImg3,
+      imgUrl: coming,
     },
   ];
 
